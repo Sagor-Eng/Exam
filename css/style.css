@@ -4,7 +4,8 @@
     padding: 0;
     outline: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Open Sans", sans-serif;
+
 }
 
 a {
@@ -269,6 +270,7 @@ p {
     justify-content: center;
     align-items: center;
     text-align: center;
+
 }
 
 .textItem h3 {
@@ -290,7 +292,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: left;
     gap: 25px;
 
 }
@@ -304,12 +306,22 @@ p {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
-.itemzero img {
-    padding-top: 50px;
+.overly {
+    position: relative;
 }
 
+.overly img {
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 30px;
+
+
+}
+
+
 .itemzero h5 {
-    padding-top: 50px;
+    padding-left: 30px;
+    padding-top: 104px;
     font-size: 20px;
     font-weight: 700;
     color: #474747;
@@ -317,11 +329,12 @@ p {
 }
 
 .itemzero p {
-    padding-top: 9px;
+    padding-top: 20px;
     line-height: 28px;
     font-size: 16px;
     font-weight: 400;
     color: #474747;
+    width: 201px;
 }
 
 .itemOne {
@@ -334,18 +347,22 @@ p {
 }
 
 .itemOne img {
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-left: 30px;
 }
 
 .itemOne h5 {
-    padding-top: 50px;
+    padding-left: 30px;
+    width: 210px;
+    padding-top: 30px;
     font-size: 20px;
     font-weight: 700;
     color: #474747;
+
 }
 
 .itemOne p {
-    padding-top: 9px;
+    padding-top: 20px;
     line-height: 28px;
     font-size: 16px;
     font-weight: 400;
@@ -362,18 +379,22 @@ p {
 }
 
 .ItemTwo img {
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-left: 30px;
 }
 
 .ItemTwo h5 {
-    padding-top: 50px;
+    padding-left: 30px;
+    width: 210px;
+    padding-top: 30px;
     font-size: 20px;
     font-weight: 700;
     color: #474747;
+
 }
 
 .ItemTwo p {
-    padding-top: 9px;
+    padding-top: 20px;
     line-height: 28px;
     font-size: 16px;
     font-weight: 400;
@@ -390,30 +411,356 @@ p {
 }
 
 .Itemthree img {
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-left: 30px;
 }
 
 .Itemthree h5 {
-    padding-top: 50px;
+    padding-left: 30px;
+    width: 210px;
+    padding-top: 30px;
     font-size: 20px;
     font-weight: 700;
     color: #474747;
+
 }
 
 .Itemthree p {
-    padding-top: 9px;
+    padding-top: 20px;
     line-height: 28px;
     font-size: 16px;
     font-weight: 400;
     color: #474747;
 }
 
+.itemzero:hover,
+.itemOne:hover,
+.ItemTwo:hover,
+.Itemthree:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
 
 /* What I Do Part End */
 
-/* What I Do Part Start */
-/* What I Do Part End */
-/* What I Do Part Start */
-/* What I Do Part End */
-/* What I Do Part Start */
-/* What I Do Part End */
+/* Resume I Do Part Start */
+.heading h3 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.education {
+    padding-top: 110px;
+
+}
+
+.educationFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.education h3 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.education h4 {
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.education h6 {
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.education p {
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #474747;
+    width: 511px;
+}
+
+.border {
+    width: 100%;
+    border-bottom: 1px solid #D1D1D1;
+    margin: 30px 0;
+}
+
+.education1 h4 {
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.education1 h6 {
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.education1 p {
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #474747;
+    width: 511px;
+}
+
+.border {
+    width: 100%;
+    border-bottom: 1px solid #D1D1D1;
+    margin: 30px 0;
+}
+
+.education2 h4 {
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.education2 h6 {
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.education2 p {
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #474747;
+    width: 511px;
+}
+
+.educationRight {
+    padding-top: 110px;
+}
+
+.educationRight h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.educationRight h4 {
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.educationRight h6 {
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.educationRight p {
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #474747;
+    width: 511px;
+}
+
+.border {
+    width: 100%;
+    border-bottom: 1px solid #D1D1D1;
+    margin: 30px 0;
+}
+
+.educationRight1 h4 {
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.educationRight1 h6 {
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.educationRight1 p {
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #474747;
+    width: 511px;
+}
+
+.border {
+    width: 100%;
+    border-bottom: 1px solid #D1D1D1;
+    margin: 30px 0;
+}
+
+
+.educationRight2 h4 {
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.educationRight2 h6 {
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.educationRight2 p {
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #474747;
+    width: 511px;
+}
+
+.cvbtn {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.cvbtn a {
+    display: inline-block;
+    padding: 17px 28px;
+    background: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.cvbtn a i {
+    margin-right: 8px;
+}
+
+.cvbtn a:hover {
+    transform: scale(1.05);
+}
+
+/* Resume I Do Part End */
+
+
+/* Submit Part Start */
+#subPart {
+    background: #FFF8F3;
+    height: 780px;
+    margin-top: 113px;
+}
+
+.flexPrt {
+    display: flex;
+}
+
+.text h4 {
+    padding-top: 130px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.text p {
+    width: 560px;
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #181818;
+}
+
+.text1 h4 {
+    padding-top: 130px;
+    padding-left: 115px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.text1 form {
+    padding-top: 28px;
+    padding-left: 117px;
+}
+
+.text1 .form form input,
+.text1 .form form textarea {
+    display: block;
+    width: 461px;
+    height: 64px;
+    padding: 28px;
+    margin-bottom: 24px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.text1 .form form textarea {
+    height: 180px;
+    resize: none;
+}
+
+.subbtn {
+    padding-top: 28px;
+}
+
+.subbtn a {
+    padding: 18px 39px;
+    background: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.subbtn a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Submit Part End */
+
+/* Social link Part Start */
+.social{
+    padding-top: 30px;
+  
+}
+.social i{
+  color: #FD6E0A;
+  padding: 0 15px;
+}
+.social i:hover{
+    color: blue;
+    transform: scale(1.05);
+}
+/* Social link Part End */
